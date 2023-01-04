@@ -13,31 +13,43 @@
 </head>
 <body>
 <div class="navbar shadow navbar-expand-lg">
-    <a class="d-flex fs-4 ms-5 me-auto text-decoration-none text-dark " href="#">
+    <div class="container-fluid">
+        <a class="d-flex fs-4 ms-5 text-decoration-none text-dark " href="#">
             <i class="bi bi-bootstrap-fill me-2"></i>
             <h4 class="mt-1">Bootstrap</h4>
-    </a>
-    <button class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-nav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <ul class="navbar-nav collapse navbar-collapse me-5 fs-5" id="navbar-collapse-nav">
-        <li class="me-auto"></li>
-       <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item dropdown">
-            <a class="dropdown-toggle fs-5 nav-link" href="#" data-bs-toggle="dropdown">
-                Products
-            </a>
-            <ul class="dropdown-menu">
-                <li class="dropdown-item"><a href="#" class="text-decoration-none text-dark">PES4</a></li>
-                <li class="dropdown-item"><a href="#" class="text-decoration-none text-dark">PES5</a></li>
-                <li class="dropdown-divider"></li>
-                <li class="dropdown-item"><a href="#" class="text-decoration-none text-dark">PES6(SOON)</a></li>
+        </a>
+        <button class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+                <li class="me-auto invisible"></li>
+            <ul class="navbar-nav d-block d-lg-flex align-items-start ms-5  fs-5">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle nav-link" href="#" data-bs-toggle="dropdown">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#" class="text-decoration-none text-dark">PES4</a></li>
+                        <li class="dropdown-divider d-block d-lg-none"></li>
+                        <li class="dropdown-item"><a href="#" class="text-decoration-none text-dark">PES5</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-item"><a href="#" class="text-decoration-none text-dark">PES6(SOON)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Call us</a></li>
             </ul>
-        </li>
-       <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-       <li class="nav-item"><a class="nav-link" href="#">Call us</a></li>
-    </ul>
+        </div>
+    </div>
 </div>
+<container>
+    <div class="row">
+        <div class="col">
+
+        </div>
+    </div>
+</container>
 <script src="./script.js"></script>
 </body>
 </html>
